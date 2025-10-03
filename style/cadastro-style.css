@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #52B0DC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tela-cadastro h2 {
+    text-align: center;
+}
+
+.tela-cadastro {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    gap:10px;           
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.button-group .cadastrar {
+    background-color: #52B0DC;
+    outline: none;
+    border: none;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button-group .entrar{
+    background: #ccc;
+    outline: none;
+    border: none;
+    color: black;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-group input:focus{
+    border-color: #52B0DC;
+    box-shadow: 0 0 5px rgba(82, 176, 220, 0.5);
+}
