@@ -60,24 +60,24 @@ body {
     margin-top: 15px;
 }
 
-.button-group .cadastrar {
+.cadastrar {
     background-color: #52B0DC;
     outline: none;
     border: none;
     color: white;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
 }
-.button-group .entrar{
+.entrar{
     background: #ccc;
     outline: none;
     border: none;
     color: black;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border-radius: 8px;
     font-size: 16px;
